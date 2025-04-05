@@ -48,6 +48,7 @@ function App() {
                   </SuspenseWrapper>
                 }
               />
+              <Route path="*" element={<>PAGE NOT FOUND</>} />
             </Routes>
           </main>
         </div>
